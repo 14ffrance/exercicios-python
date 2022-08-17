@@ -1,0 +1,6 @@
+price = float (input('Qual é o preço do produto? '))
+fees = int (input('São quantos porcento de juros? '))
+discount = int (input('É quantos porcento de desconto? '))
+newprice = float(price - (price * discount / 100))
+newprice1 = price + (price * fees /100)
+print (f'O preço do produto à vista é R${newprice:.2f}, e o com juros R${newprice1:.2f}! ')
